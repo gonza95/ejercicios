@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body{
+    width: 100%;
+    height: auto;
+}
+
 header{
     background-color: darkblue;
     font-family:'Raleway', sans-serif;
@@ -51,4 +56,10 @@ a {
     margin-top: 30px;
     font-size: 33px;
     padding: 10px;
+}
+
+#productos img{
+    width: 50%;
+	height: 600px;
+	float: left;
 }
