@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body{
@@ -33,14 +32,6 @@ header{
     color: white;
 }
 
-a {
-    transition: background-color .5s;
-  }
-  
-  a:hover {
-    background-color: gold;
-  }
-
 #welcome{
     text-align: center;
     font-family:'Raleway', sans-serif;
@@ -58,8 +49,127 @@ a {
     padding: 10px;
 }
 
-#productos img{
-    width: 50%;
-	height: 600px;
-	float: left;
+nav {
+    margin:auto;
+    margin-left: 487px;
+    width: 100%;
+    max-width: 1000px;
+    overflow: hidden;
 }
+ 
+nav ul {
+	list-style:none;
+}
+ 
+nav > ul {
+    display:table;
+	width:100%;
+	background:#000;
+}
+ 
+nav > ul li {
+	display:table-cell;
+}
+
+/* Desplegable/Submenu */
+nav > ul > li:hover > ul {
+	display:block;
+	height:7%;
+}
+ 
+nav > ul > li > ul {
+	display:block;
+	position:absolute;
+	background:#000;
+	left:5;
+    right:5;
+	overflow: hidden;
+	height:0%;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+ 
+nav > ul li a {
+	color:#fff;
+	display:block;
+	line-height:20px;
+	padding:20px;
+	position: relative;
+	text-align:center;
+	text-decoration:none;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+ 
+nav > ul > li > ul > li a:hover {
+	background:#5da5a2;
+}
+
+nav > ul > li > a span {
+	background:#174459;
+	display:block;
+	height:100%;
+	width:100%;
+	left:0;
+	position:absolute;
+	top:-55px;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+ 
+nav > ul > li > a span .icon {
+	display:block;
+	line-height:60px;
+}
+ 
+nav > ul > li > a:hover > span {
+	top:0;
+}
+
+#productos{
+    margin-top: 80px;
+}
+
+/* Colores */
+
+nav ul li a .primero{
+    background: #0e5061;
+}
+
+nav ul li a .segundo{
+    background: #5da5a2;
+}
+
+nav ul li a .tercero{
+    background: #f25724;
+}
+
+nav ul li a .cuarto{
+    background: #157aee;
+}
+
+nav ul li a .quinto{
+    background: #35bb40;
+}
+
+nav ul li a .sexto{
+    background: #220de4;
+}
+
+nav ul li a .septimo{
+    background: #b7ca0d;
+}
+
+nav ul li a .octavo{
+    background: #9c1212;
+}
+
