@@ -139,7 +139,7 @@ nav > ul > li > a:hover > span {
     margin-top: 80px;
 }
 
-/* Colores */
+/* Colores del menu despleglable */
 
 nav ul li a .primero{
     background: #0e5061;
@@ -173,3 +173,24 @@ nav ul li a .octavo{
     background: #9c1212;
 }
 
+p{
+	font-size: 25px;
+}
+
+/* clase de las imagenes*/
+
+
+.fotos img{
+float:left;
+width:350px;
+height:300px;
+padding-top:110px;
+margin-left:120px;
+display: table-cell;
+}
+
+.texto{
+	float:left;
+	margin-left:95px;
+	margin-top:90px;
+}
