@@ -12,24 +12,22 @@ header{
     background-color: darkblue;
     font-family:'Raleway', sans-serif;
     font-size: 32px;
-    display: block;
+    position: relative;
     width: 100%;
     height: auto;
 }
 
 #title{
+	list-style: none;
     color:white;
-    padding: 10px;
+	padding: 10px;
 }
 
-#contact{   
-    float: right;
-    color: white;
-}
-
-#contact a{
-    text-decoration: none;
-    color: white;
+#title li a{
+	text-decoration: none;
+	color: white;
+	float: right;
+	top: 10%;
 }
 
 #welcome{
@@ -193,4 +191,8 @@ display: table-cell;
 	float:left;
 	margin-left:95px;
 	margin-top:90px;
+}
+
+.texto p{
+	font-size: 20px;
 }
